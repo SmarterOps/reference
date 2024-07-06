@@ -110,6 +110,7 @@ kubectl logs --since=1h [pod_name]
 kubectl logs --tail=20 [pod_name]
 kubectl logs -f -c [container_name] [pod_name]
 kubectl logs [pod_name] > pod.log
+kubectl logs [pod name] -p   <!---This Command is used to fetch the logs of a previous instance (previous container) of a pod in Kubernetes.-->
 ```
 
 ### Service Accounts
